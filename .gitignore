@@ -1,3 +1,4 @@
 tests/
 vendor/
+codeception.yml
 composer.lock
