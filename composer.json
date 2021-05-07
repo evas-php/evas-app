@@ -1,0 +1,24 @@
+{
+    "name": "evas-php/evas-app",
+    "description": "Evas PHP starter pack",
+    "keywords": ["starter pack", "starter", "launch", "framework", "evas-php"],
+    "version": "1.0",
+    "type": "library",
+    "license": "CC-BY-4.0",
+    "authors": [
+        {
+            "name": "Egor Vasyakin",
+            "email": "egor@evas-php.com"
+        }
+    ],
+    "require": {
+        "evas-php/evas-base": "*",
+        "evas-php/evas-di": "*",
+        "evas-php/evas-db": "*",
+        "evas-php/evas-http": "*",
+        "evas-php/evas-orm": "*",
+        "evas-php/evas-router": "*",
+        "evas-php/evas-validate": "*",
+        "evas-php/evas-web": "*",
+    }
+}
