@@ -19,6 +19,23 @@
         "evas-php/evas-orm": "*",
         "evas-php/evas-router": "*",
         "evas-php/evas-validate": "*",
-        "evas-php/evas-web": "*",
+        "evas-php/evas-web": "*"
+    },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evas\\Base\\": "vendor/evas-php/evas-base/src",
+            "Evas\\Http\\": "vendor/evas-php/evas-http/src",
+            "Evas\\Db\\": "vendor/evas-php/evas-db/src",
+            "Evas\\Orm\\": "vendor/evas-php/evas-orm/src",
+            "Evas\\Router\\": "vendor/evas-php/evas-router/src",
+            "Evas\\Validate\\": "vendor/evas-php/evas-validate/src",
+            "Evas\\Validate\\Fields\\": "vendor/evas-php/evas-validate-fields/src",
+            "Evas\\Web\\": "vendor/evas-php/evas-web/src"
+        }
     }
 }
