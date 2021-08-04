@@ -24,18 +24,26 @@
     "require-dev": {
         "codeception/codeception": "*",
         "codeception/module-phpbrowser": "^1.0.0",
-        "codeception/module-asserts": "dev-master"
+        "codeception/module-asserts": "dev-master",
+        "codeception/module-db": "^1.1"
     },
     "autoload": {
         "psr-4": {
             "Evas\\Base\\": "vendor/evas-php/evas-base/src",
-            "Evas\\Http\\": "vendor/evas-php/evas-http/src",
             "Evas\\Db\\": "vendor/evas-php/evas-db/src",
+            "Evas\\Di\\": "vendor/evas-php/evas-di/src",
+            "Evas\\Http\\": "vendor/evas-php/evas-http/src",
             "Evas\\Orm\\": "vendor/evas-php/evas-orm/src",
             "Evas\\Router\\": "vendor/evas-php/evas-router/src",
             "Evas\\Validate\\": "vendor/evas-php/evas-validate/src",
-            "Evas\\Validate\\Fields\\": "vendor/evas-php/evas-validate-fields/src",
             "Evas\\Web\\": "vendor/evas-php/evas-web/src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Evas\\Auth\\tests\\": "vendor/evas-php/evas-auth/tests",
+            "Evas\\Db\\tests\\": "vendor/evas-php/evas-db/tests",
+            "Evas\\Validate\\tests\\": "vendor/evas-php/evas-validate/tests"
         }
     }
 }
