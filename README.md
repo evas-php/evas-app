@@ -6,7 +6,7 @@ Evas PHP starter pack
 ```
 git clone https://github.com/evas-php/evas-app myapp
 ```
-2. Install dependencies
+2. Install dependencies (using composer https://getcomposer.org/download/)
 ```
 composer install
 ```
