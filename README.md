@@ -24,3 +24,9 @@ php vendor/bin/codecept bootstrap
 ```
 php vendor/bin/codecept run unit vendor/evas-php/
 ```
+
+## Directories
+- `public` directory for public files, index.php, css, js, images here
+- `config` directory for config files
+- `vendor` directory for dependency libraries
+- The rest is at your discretion 
