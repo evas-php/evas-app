@@ -11,12 +11,16 @@ git clone https://github.com/evas-php/evas-app myapp
 composer install
 ```
 
-## Testing
+## Testing evas modules
 1. Setup codeception
 ```
 php vendor/bin/codecept bootstrap
 ```
-2. Run tests
+2. Create database for tests with name `evas-tests`
+
+3. Setup database connection in `vendor\evas-php\evas-db\tests\_config\db_tests_config.php`
+
+4. Run tests
 ```
 php vendor/bin/codecept run unit vendor/evas-php/
 ```
